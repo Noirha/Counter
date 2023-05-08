@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(252, 248, 243);
+}
+
+@media (min-width:576px) {
+    .continer {
+        width: 540px;
+    }
+}
+
+@media (min-width:768px) {
+    .continer {
+        width: 720px;
+    }
+}
+
+@media (min-width:992px) {
+    .continer {
+        width: 980px;
+    }
+}
+
+@media (min-width:1200px) {
+    .continer {
+        width: 1190px;
+    }
+}
+
+@media (min-width:1500px) {
+    .continer {
+        width: 1470px;
+    }
+}
+
+@media (max-width:767px) {
+    .continer {
+        padding: 0 10px;
+    }
+}
+
+.cointer {
+    margin: auto;
+    transform: translateY(140%);
+    width: fit-content;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cointer h3 {
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+
+}
+
+@media (max-width:767px) {
+
+    .cointer h3 {
+        font-size: 20px;
+    }
+}
+
+input {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 16px;
+    color: rgb(112, 119, 119);
+}
+
+button {
+    border: none;
+    outline: none;
+    background: none;
+    border: 1.4px solid black;
+    padding: 3px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-family: sans-serif;
+    margin: 3px;
+    border-radius: 2px;
+    transition: 1s;
+}
+
+#reset:hover {
+    background-color: black;
+    color: white;
+}
+
+#plus:hover {
+    background-color: green;
+    color: white;
+}
+
+#mins:hover {
+    background-color: red;
+    color: white;
+}
